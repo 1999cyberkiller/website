@@ -10,7 +10,7 @@ import { SocialLink } from '~/components/links/SocialLink'
 function Developer() {
   return (
     <span className="group">
-      <span className="font-mono">&lt;</span>取经人
+      <span className="font-mono">&lt;</span>西天取经人
       <span className="font-mono">/&gt;</span>
       <span className="invisible inline-flex text-zinc-300 before:content-['|'] group-hover:visible group-hover:animate-typing dark:text-zinc-500" />
     </span>
@@ -35,7 +35,7 @@ function OCD() {
   return (
     <span className="group inline-flex items-center">
       <SparkleIcon className="mr-1 inline-flex transform-gpu transition-transform duration-500 group-hover:rotate-180" />
-      <span>终生学习</span>
+      <span>终生学习者</span>
     </span>
   )
 }
@@ -44,7 +44,7 @@ function Founder() {
   return (
     <span className="group inline-flex items-center">
       <UserSecurityIcon className="mr-1 inline-flex group-hover:fill-zinc-600/20 dark:group-hover:fill-zinc-200/20" />
-      <span>跑者</span>
+      <span>跑者路上</span>
     </span>
   )
 }
